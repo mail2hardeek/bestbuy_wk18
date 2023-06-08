@@ -1,0 +1,7 @@
+bestbuy\serinity\wk18\testsuite\ProductExtractionTest.class
+bestbuy\serinity\wk18\crudtest\ProductCRUDTest.class
+bestbuy\serinity\wk18\testsuite\ProductAssertionTest.class
+bestbuy\serinity\wk18\testbase\TestBase.class
+bestbuy\serinity\wk18\crudtest\StoreCRUDTest.class
+bestbuy\serinity\wk18\testsuite\StoreExtractionTest.class
+bestbuy\serinity\wk18\testsuite\StoreAssertionTest.class

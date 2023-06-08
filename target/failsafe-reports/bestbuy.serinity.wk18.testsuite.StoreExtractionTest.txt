@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bestbuy.serinity.wk18.testsuite.StoreExtractionTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.288 sec - in bestbuy.serinity.wk18.testsuite.StoreExtractionTest

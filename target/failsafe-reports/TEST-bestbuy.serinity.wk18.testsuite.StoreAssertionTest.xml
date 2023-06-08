@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.501" tests="10" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\HP\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test01" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.052">
+    <failure message="1 expectation failed.&#10;JSON path total doesn&apos;t match.&#10;Expected: &lt;1563&gt;&#10;  Actual: 1561&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path total doesn't match.
+Expected: <1563>
+  Actual: 1561
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor114.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+	at bestbuy.serinity.wk18.testsuite.StoreAssertionTest.test01(StoreAssertionTest.java:32)
+]]></failure>
+    <system-err><![CDATA[31072 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Find the uri of all the products
+----------------------------------------------------------------------------
+31098 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Extract the limit to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\b42062b0a787e2dcb7e1aa3dca6827881f65ed3a4c153fa4e9557c9ab6cd7ae6.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\b42062b0a787e2dcb7e1aa3dca6827881f65ed3a4c153fa4e9557c9ab6cd7ae6.json5a41b8f0-a145-42fe-9508-3e1264db6058)
+31107 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Extract the name of 5th product to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\1be17a761c464c79d5b4b468a126a3181065dc4e0732e88d4c54c379ee1f4089.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\1be17a761c464c79d5b4b468a126a3181065dc4e0732e88d4c54c379ee1f4089.json1c33a056-04ab-4089-8f20-b59a50fdaef7)
+31121 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Extract the total to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\d929d73a0656a4389cb4c3622882ff9909264ae9a93cf52a82a36f166f877af4.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\d929d73a0656a4389cb4c3622882ff9909264ae9a93cf52a82a36f166f877af4.jsone5d12cff-fdc1-46fe-901f-25d00860afcf)
+31137 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Extract the names of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\98b8e3d8112364059e47e5e5edd71e84f642dd90c5df916815022fc24b6cff54.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\98b8e3d8112364059e47e5e5edd71e84f642dd90c5df916815022fc24b6cff54.jsonfa0ca374-5922-41a0-8d7c-81dede97eeef)
+31138 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Extract the productId of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\e783d320f6cc196db76d131b4bb57f8317497988871629fd5d08edc0ea15a57b.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\e783d320f6cc196db76d131b4bb57f8317497988871629fd5d08edc0ea15a57b.json46866179-dcc5-461f-a3c4-52e43f9e87be)
+31139 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Print the size of the data list to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\3bbaa807f0017f163b48074d67ae11140a97dd231d195607cc3b1598a716613d.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\3bbaa807f0017f163b48074d67ae11140a97dd231d195607cc3b1598a716613d.jsonbbeb18c4-5245-4de2-8c60-2606062dd2b2)
+31248 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get the model of the product where product name = Energizer - N Cell E90 Batteries (2-Pack) to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\b9ead192a7ef3fbe2167675d9af5e69c7b94dc3e23ce88dc4cee6fcc16e3bfdc.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\b9ead192a7ef3fbe2167675d9af5e69c7b94dc3e23ce88dc4cee6fcc16e3bfdc.jsond97439de-6287-4e67-9c32-7c549af27dad)
+31251 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all the categories of 8th products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\2b505259218eba575707dc84313e8932ebe43025d73714184fcbc274bd829be7.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\2b505259218eba575707dc84313e8932ebe43025d73714184fcbc274bd829be7.jsona6bc1626-86bb-448c-ae3f-1a802f999ee4)
+31255 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all the value of the product where product name = Energizer - MAX Batteries AA (4-Pack) to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\c4a4a49fa88af1d42674528404c6165450a0e71398b1af512d17ff866adeb339.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\c4a4a49fa88af1d42674528404c6165450a0e71398b1af512d17ff866adeb339.jsonb3a2026f-dcc1-4909-a919-a88f6c0afeaa)
+31256 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get categories of the store where product id = 150115 to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\93f2ed11b1c54a877f0557a9529b24572e0366fb308bc89d3958116b70c0a388.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\93f2ed11b1c54a877f0557a9529b24572e0366fb308bc89d3958116b70c0a388.json29469190-d107-458b-aa0d-918cb79b3022)
+31257 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get all the descriptions of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\e6f8faaf2bdae7256d4f47d16326eb40bb466db539d8b7b04982031df57b16a4.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\e6f8faaf2bdae7256d4f47d16326eb40bb466db539d8b7b04982031df57b16a4.json2c5466ea-4616-4b0f-a36e-7cb6c5338094)
+31275 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the Total number of categories for the product where product name = Duracell - AA 1.5V CopperTop Batteries (4-Pack) to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\5140a5893786c377ecd2e82e52305ed2929c5d96ffec7e76aa24efe6aa7518bd.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\5140a5893786c377ecd2e82e52305ed2929c5d96ffec7e76aa24efe6aa7518bd.json3bfb57ed-5195-4fa1-af81-d5d8b2cd8c46)
+31275 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Get id of all the all categories of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\c0a447a1eed1b035daba11538f1175e25c9fcb46f1fe7e5a55e5444e0f5ae88a.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\c0a447a1eed1b035daba11538f1175e25c9fcb46f1fe7e5a55e5444e0f5ae88a.json5e393aae-5754-4042-ae43-b64b5d0704e5)
+31275 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the product names Where type = HardGood to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\623a5874456fc869619537e00471e39d3a4ef8a3920fc5b19580d2b5f677cd34.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\623a5874456fc869619537e00471e39d3a4ef8a3920fc5b19580d2b5f677cd34.jsona8746095-2a31-4e90-8b1f-5475d032b9df)
+31279 [pool-5-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the createdAt for all products whose price < 5.49 to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\5cbee3aa83bcfc17e0f211eece3f43bed40d2ad23a58ca4a2295fa6ef175490a.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\5cbee3aa83bcfc17e0f211eece3f43bed40d2ad23a58ca4a2295fa6ef175490a.json26b0ed2f-bcc0-4794-ab9e-e1ee07ff4302)
+31292 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the name of all categories Where product name = “Energizer - MAX Batteries AA (4-Pack)” to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\a86b61ede7bbc031e708fda9f7686427b833c44608b6189d9e7a42ae7da6980b.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\a86b61ede7bbc031e708fda9f7686427b833c44608b6189d9e7a42ae7da6980b.jsonfd4db168-8b4f-4ea6-a599-d5cc6733e46d)
+31294 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the manufacturer of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\f0242a0f7889fa95d9f717313b0b9bc69b4911d49516d7222a0deccb91c32693.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\f0242a0f7889fa95d9f717313b0b9bc69b4911d49516d7222a0deccb91c32693.json40626723-ba0d-494c-9285-fe87e95da168)
+31328 [pool-5-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the image of products whose manufacturer is = Energizer to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\181a3b55119e4c9e20cb16ab65b47478e0c87b9a94e26d8fec54072dc26deaf9.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\181a3b55119e4c9e20cb16ab65b47478e0c87b9a94e26d8fec54072dc26deaf9.json2765e357-14fe-4d5f-b257-b59aa7b3aa98)
+31332 [pool-5-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the uri of all the products to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\fbeaef29a0df4746e724ba2049c5df7b4e83a179465ed0aad097e4a5af62a051.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\fbeaef29a0df4746e724ba2049c5df7b4e83a179465ed0aad097e4a5af62a051.json006a16f9-d0d7-4e72-b0b2-119a49c37726)
+31355 [pool-5-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Find the createdAt for all categories products whose price > 5.99 to file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\7f75488805a62e7ea0cbb41910ca125886778045f6e3cae326bc935f426f6a60.json (using temp file C:\Users\HP\IdeaProjects\bestbuy-serinity-wk18\target\site\serenity\7f75488805a62e7ea0cbb41910ca125886778045f6e3cae326bc935f426f6a60.json2ffefee9-ecca-4460-b75d-00a5d5d1b81a)
+31391 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test03 in 1be17a761c464c79d5b4b468a126a3181065dc4e0732e88d4c54c379ee1f4089.html in directory target\site\serenity  
+31391 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test04 in 98b8e3d8112364059e47e5e5edd71e84f642dd90c5df916815022fc24b6cff54.html in directory target\site\serenity  
+31401 [pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test02 in d929d73a0656a4389cb4c3622882ff9909264ae9a93cf52a82a36f166f877af4.html in directory target\site\serenity  
+31409 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test01 in b42062b0a787e2dcb7e1aa3dca6827881f65ed3a4c153fa4e9557c9ab6cd7ae6.html in directory target\site\serenity  
+31498 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test05 in e783d320f6cc196db76d131b4bb57f8317497988871629fd5d08edc0ea15a57b.html in directory target\site\serenity  
+31536 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test06 in 3bbaa807f0017f163b48074d67ae11140a97dd231d195607cc3b1598a716613d.html in directory target\site\serenity  
+31539 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test07 in c4a4a49fa88af1d42674528404c6165450a0e71398b1af512d17ff866adeb339.html in directory target\site\serenity  
+31544 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test09 in 2b505259218eba575707dc84313e8932ebe43025d73714184fcbc274bd829be7.html in directory target\site\serenity  
+31547 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test08 in b9ead192a7ef3fbe2167675d9af5e69c7b94dc3e23ce88dc4cee6fcc16e3bfdc.html in directory target\site\serenity  
+31576 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test11 in e6f8faaf2bdae7256d4f47d16326eb40bb466db539d8b7b04982031df57b16a4.html in directory target\site\serenity  
+31585 [pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test12 in c0a447a1eed1b035daba11538f1175e25c9fcb46f1fe7e5a55e5444e0f5ae88a.html in directory target\site\serenity  
+31608 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test10 in 93f2ed11b1c54a877f0557a9529b24572e0366fb308bc89d3958116b70c0a388.html in directory target\site\serenity  
+31661 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test13 in 623a5874456fc869619537e00471e39d3a4ef8a3920fc5b19580d2b5f677cd34.html in directory target\site\serenity  
+31668 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test14 in 5140a5893786c377ecd2e82e52305ed2929c5d96ffec7e76aa24efe6aa7518bd.html in directory target\site\serenity  
+31677 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test15 in 5cbee3aa83bcfc17e0f211eece3f43bed40d2ad23a58ca4a2295fa6ef175490a.html in directory target\site\serenity  
+31695 [pool-6-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test16 in a86b61ede7bbc031e708fda9f7686427b833c44608b6189d9e7a42ae7da6980b.html in directory target\site\serenity  
+31696 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test17 in f0242a0f7889fa95d9f717313b0b9bc69b4911d49516d7222a0deccb91c32693.html in directory target\site\serenity  
+31711 [pool-6-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test18 in 181a3b55119e4c9e20cb16ab65b47478e0c87b9a94e26d8fec54072dc26deaf9.html in directory target\site\serenity  
+31758 [pool-6-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test19 in 7f75488805a62e7ea0cbb41910ca125886778045f6e3cae326bc935f426f6a60.html in directory target\site\serenity  
+31777 [pool-6-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product extraction test:test20 in fbeaef29a0df4746e724ba2049c5df7b4e83a179465ed0aad097e4a5af62a051.html in directory target\site\serenity  
+31927 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store assertion test
+31928 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test01
+-------------------------------------------------------------------
+31928 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 29
+]]></system-err>
+  </testcase>
+  <testcase name="test02" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.037"/>
+  <testcase name="test03" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.12"/>
+  <testcase name="test04" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.037"/>
+  <testcase name="test05" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.029"/>
+  <testcase name="test06" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.078"/>
+  <testcase name="test07" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.041"/>
+  <testcase name="test08" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.036"/>
+  <testcase name="test09" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.042"/>
+  <testcase name="test10" classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" time="0.029"/>
+</testsuite>

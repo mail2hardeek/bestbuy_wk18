@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bestbuy.serinity.wk18.testsuite.ProductAssertionTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.287 sec - in bestbuy.serinity.wk18.testsuite.ProductAssertionTest

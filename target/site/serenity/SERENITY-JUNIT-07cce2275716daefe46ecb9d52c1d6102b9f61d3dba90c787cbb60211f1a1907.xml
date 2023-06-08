@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" skipped="0" tests="10" time="0.69" timestamp="2023-06-08T20:37:54.984+01:00[Europe/London]"><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the if the total is equal to 1563"><failure message="1 expectation failed.&#10;JSON path total doesn't match.&#10;Expected: &lt;1563&gt;&#10;  Actual: 1561&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path total doesn't match.
+Expected: &lt;1563&gt;
+  Actual: 1561
+</failure><system-err>1 expectation failed.
+JSON path total doesn't match.
+Expected: &lt;1563&gt;
+  Actual: 1561
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)&#13;
+bestbuy.serinity.wk18.testsuite.StoreAssertionTest.test01(StoreAssertionTest.java:32)&#13;
+</system-err></testcase><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the if the stores of limit is equal to 10"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Check the single ‘Name’ in the Array list (Inver Grove Heights)"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Check the multiple ‘Names’ in the ArrayList (Roseville, Burnsville, Maplewood)"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the storied=7 inside storeservices of the third store of second services"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Check hash map values ‘createdAt’ inside storeservices map where store name = Roseville"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the state = MN of forth store"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the store name = Rochester of 9th store"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the storeId = 11 for the 6th store"/><testcase classname="bestbuy.serinity.wk18.testsuite.StoreAssertionTest" name="Verify the serviceId = 4 for the 7th store of forth service"/></testsuite>

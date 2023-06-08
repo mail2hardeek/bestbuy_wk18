@@ -1,0 +1,9 @@
+bestbuy\serinity\wk18\constant\EndPoints.class
+bestbuy\serinity\wk18\steps\ProductSteps.class
+bestbuy\serinity\wk18\utils\PropertyReader.class
+bestbuy\serinity\wk18\model\StoresPojo.class
+bestbuy\serinity\wk18\steps\StoreSteps.class
+bestbuy\serinity\wk18\constant\Path.class
+bestbuy\serinity\wk18\model\ProductPojo.class
+bestbuy\serinity\wk18\model\StoresPojo$Services.class
+bestbuy\serinity\wk18\utils\TestUtils.class
